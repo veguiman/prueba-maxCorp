@@ -1,30 +1,19 @@
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+ PRUEBA MAXCORP
+ Author: Cristian Vega
+ Año: 2017
+ Demo: https://prueba-max-corp-globito42.c9users.io/ 
+
+Instrucciones para la instalación
+
+1)Realizar un clone del repositorio en github https://github.com/veguiman/prueba-maxCorp
+
+2)Ejecutar npm install para instalar los paquetes de la aplicaciona nivel de Frontend
+
+3)Ejecutar composer update para descargar las dependencias de laravel
+
+4)Crear base de datos en mysql con nombre 'prueba'
+
+5)Ejecutar php artisan migrate para crear las tablas en la base de datos (El archivo .sql se encuentra en la raiz del proyecto opcional este paso)
 
 
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, we have created a small hello world application.
-
-1) Open the hello-world.php file
-
-2) Follow the run instructions in the file's comments
-
-3) If you want to look at the Apache logs, check out ~/lib/apache2/log
-
-And that's all there is to it! Just have fun. Go ahead and edit the code, 
-or add new files. It's all up to you! 
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
