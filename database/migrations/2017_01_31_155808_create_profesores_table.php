@@ -13,7 +13,15 @@ class CreateProfesoresTabe extends Migration
      */
     public function up()
     {
-        
+        Schema::create('profesores', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('nombre');
+            $table->string('titulo');
+            $table->date('fecha_nacimiento');
+            $table->string('direccion');
+            $table->integer('user_id');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +31,6 @@ class CreateProfesoresTabe extends Migration
      */
     public function down()
     {
-       
+        Schema::dropIfExists('profesores');
     }
 }
